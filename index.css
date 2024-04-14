@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: aquamarine;
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    align-items: center;
+}
+
+.logo_container{
+    margin-left: 4%;
+}
+
+.action_bar{
+    margin-right: 4%;
+}
+
+.logo{
+    height: 36px;
+}
